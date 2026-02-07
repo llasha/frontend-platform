@@ -17,6 +17,7 @@ import '@formatjs/intl-pluralrules/locale-data/pt';
 import '@formatjs/intl-pluralrules/locale-data/ru';
 import '@formatjs/intl-pluralrules/locale-data/th';
 import '@formatjs/intl-pluralrules/locale-data/uk';
+import '@formatjs/intl-pluralrules/locale-data/ka';
 
 import '@formatjs/intl-relativetimeformat/polyfill';
 import '@formatjs/intl-relativetimeformat/locale-data/ar';
@@ -33,6 +34,7 @@ import '@formatjs/intl-relativetimeformat/locale-data/pt';
 import '@formatjs/intl-relativetimeformat/locale-data/ru';
 import '@formatjs/intl-relativetimeformat/locale-data/th';
 import '@formatjs/intl-relativetimeformat/locale-data/uk';
+import '@formatjs/intl-relativetimeformat/locale-data/ka';
 
 const cookies = new Cookies();
 const supportedLocales = [
@@ -52,6 +54,8 @@ const supportedLocales = [
   'ru', // Russian
   'th', // Thai
   'uk', // Ukrainian
+  'ka', // Georgian
+  
 ];
 const rtlLocales = [
   'ar', // Arabic
@@ -242,6 +246,7 @@ const messagesShape = {
   ru: PropTypes.objectOf(PropTypes.string), // Russian
   th: PropTypes.objectOf(PropTypes.string), // Thai
   uk: PropTypes.objectOf(PropTypes.string), // Ukrainian
+  ka: PropTypes.objectOf(PropTypes.string), // Georgian
 };
 
 const optionsShape = {

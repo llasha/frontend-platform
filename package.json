@@ -1,6 +1,6 @@
 {
-  "name": "@edunext/frontend-platform",
-  "version": "8.3.11-alpha.1",
+  "name": "@llasha/frontend-platform",
+  "version": "8.3.11-ka.1",
   "description": "Foundational application framework for Open edX micro-frontend applications.",
   "main": "index.js",
   "publishConfig": {
@@ -36,7 +36,7 @@
     "@edx/brand": "npm:@openedx/brand-openedx@^1.2.2",
     "@edx/browserslist-config": "1.5.0",
     "@openedx/frontend-build": "^14.3.0",
-    "@openedx/paragon": "^23.3.0",
+    "@openedx/paragon": "npm:@llasha/paragon@23.4.5-ka.3",
     "@testing-library/dom": "10.4.0",
     "@testing-library/jest-dom": "6.6.3",
     "@testing-library/react": "16.2.0",
@@ -54,7 +54,7 @@
     "redux": "4.2.1"
   },
   "dependencies": {
-    "@cospired/i18n-iso-languages": "4.2.0",
+    "@llasha/i18n-iso-languages": "4.2.1",
     "@formatjs/intl-pluralrules": "4.3.3",
     "@formatjs/intl-relativetimeformat": "10.0.1",
     "axios": "1.9.0",
@@ -76,7 +76,7 @@
   },
   "peerDependencies": {
     "@openedx/frontend-build": ">= 14.0.0",
-    "@openedx/paragon": ">= 21.5.7 < 24.0.0",
+    "@openedx/paragon": "23.4.5-ka.3 || ^23.0.0",
     "prop-types": ">=15.7.2 <16.0.0",
     "react": "^16.9.0 || ^17.0.0 || ^18.0.0",
     "react-dom": "^16.9.0 || ^17.0.0 || ^18.0.0",

@@ -64,6 +64,7 @@ describe('lib', () => {
           ru: {},
           th: {},
           uk: {},
+          ka: {},
           uhoh: {}, // invalid locale
         },
       });
@@ -95,6 +96,7 @@ describe('lib', () => {
       expect(console.warn).toHaveBeenCalledWith('Missing locale: ru');
       expect(console.warn).toHaveBeenCalledWith('Missing locale: th');
       expect(console.warn).toHaveBeenCalledWith('Missing locale: uk');
+      expect(console.warn).toHaveBeenCalledWith('Missing locale: ka');
     });
   });
 
@@ -225,6 +227,7 @@ describe('lib', () => {
       expect(isRtl('es-419')).toBe(false);
       expect(isRtl('de')).toBe(false);
       expect(isRtl('ru')).toBe(false);
+      expect(isRtl('ka')).toBe(false);
     });
   });
 

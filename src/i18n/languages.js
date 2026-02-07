@@ -1,20 +1,21 @@
 /* eslint-disable import/extensions */
-import LANGUAGES, { langs as languageLangs } from '@cospired/i18n-iso-languages';
+import LANGUAGES, { langs as languageLangs } from '@llasha/i18n-iso-languages';
 
-// import arLocale from '@cospired/i18n-iso-languages/langs/ar.json';
-import enLocale from '@cospired/i18n-iso-languages/langs/en.json';
-import esLocale from '@cospired/i18n-iso-languages/langs/es.json';
-import frLocale from '@cospired/i18n-iso-languages/langs/fr.json';
-// import zhLocale from '@cospired/i18n-iso-languages/langs/zh.json';
-// import caLocale from '@cospired/i18n-iso-languages/langs/ca.json';
-// import heLocale from '@cospired/i18n-iso-languages/langs/he.json';
-// import idLocale from '@cospired/i18n-iso-languages/langs/id.json';
-// import koLocale from '@cospired/i18n-iso-languages/langs/ko.json';
-import plLocale from '@cospired/i18n-iso-languages/langs/pl.json';
-import ptLocale from '@cospired/i18n-iso-languages/langs/pt.json';
-// import ruLocale from '@cospired/i18n-iso-languages/langs/ru.json';
-// import thLocale from '@cospired/i18n-iso-languages/langs/th.json';
-// import ukLocale from '@cospired/i18n-iso-languages/langs/uk.json';
+// import arLocale from '@llasha/i18n-iso-languages/langs/ar.json';
+import enLocale from '@llasha/i18n-iso-languages/langs/en.json';
+import esLocale from '@llasha/i18n-iso-languages/langs/es.json';
+import frLocale from '@llasha/i18n-iso-languages/langs/fr.json';
+// import zhLocale from '@llasha/i18n-iso-languages/langs/zh.json';
+// import caLocale from '@llasha/i18n-iso-languages/langs/ca.json';
+// import heLocale from '@llasha/i18n-iso-languages/langs/he.json';
+// import idLocale from '@llasha/i18n-iso-languages/langs/id.json';
+// import koLocale from '@llasha/i18n-iso-languages/langs/ko.json';
+import plLocale from '@llasha/i18n-iso-languages/langs/pl.json';
+import ptLocale from '@llasha/i18n-iso-languages/langs/pt.json';
+// import ruLocale from '@llasha/i18n-iso-languages/langs/ru.json';
+// import thLocale from '@llasha/i18n-iso-languages/langs/th.json';
+// import ukLocale from '@llasha/i18n-iso-languages/langs/uk.json';
+import kaLocale from '@llasha/i18n-iso-languages/langs/ka.json';
 
 import { getPrimaryLanguageSubtag } from './lib';
 
@@ -43,6 +44,7 @@ LANGUAGES.registerLocale(ptLocale);
 // LANGUAGES.registerLocale(ruLocale);
 // LANGUAGES.registerLocale(thLocale);
 // LANGUAGES.registerLocale(ukLocale);
+LANGUAGES.registerLocale(kaLocale);
 
 /**
  * Provides a lookup table of language IDs to language names for the current locale.
