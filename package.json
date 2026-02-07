@@ -1,6 +1,6 @@
 {
   "name": "@llasha/frontend-platform",
-  "version": "8.3.11-ka.1",
+  "version": "8.3.11-ka.2",
   "description": "Foundational application framework for Open edX micro-frontend applications.",
   "main": "index.js",
   "publishConfig": {
